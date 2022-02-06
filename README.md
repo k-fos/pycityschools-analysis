@@ -1,4 +1,11 @@
 # Overview
+The purpose of this analysis is to remove ninth grade scores at Thomas High School and determine the impact on school district performance in the following categories:
+
+- District Type
+- School Size
+- School Spend
+- Scores by Grade
+- High and Low Performing Schools
 
 # Results
 
@@ -54,8 +61,10 @@
 
     - #### Math and reading scores by grade
 
+        The math and reading scores rendered a `NaN` in the 9th grade column for Thomas High School.
+
     - #### Scores by school spending
-    
+
             Note: when the dataframe is formatted, all numbers remained the same
 
         ###### before and after
@@ -81,3 +90,6 @@
         ![](Images/by-school-type-after.png)
 
 # Summary
+Overall, removing the reading and math scores for the ninth graders at Thomas High School did not impact the high school's performance in comparison to other schools.  In addition, it did not have an affect on comparisons amongst school size, school spending, and school type.
+
+The scores did not have an impact because scores were recalculated with only 10-12th graders and used in the summary dataframe.  The analysis showed that ninth grade scores at Thomas High School were comparable to the rest of the school.
